@@ -48,18 +48,18 @@
                         <fieldset>
                             <legend class="sr-only">Barre de recherche</legend>
                             <div class="barre_recherche">
-                                <label for="recherche"
-                                    ><i
-                                        id="icon_recherche"
-                                        class="fa-solid fa-location-dot"
-                                        style="color: #000000"
-                                    ></i>
-                                </label>
+                                <i
+                                    id="icon_recherche"
+                                    class="fa-solid fa-location-dot"
+                                    style="color: #000000"
+                                ></i>
+
                                 <input
                                     type="text"
                                     name="recherche"
                                     id="recherche"
                                     placeholder="Entrer une ville"
+                                    autofocus
                                 />
                                 <input
                                     type="submit"
@@ -69,62 +69,60 @@
                             </div>
                         </fieldset>
                         <fieldset>
+                            <legend class="sr-only">
+                                Appliquer un filtre à ma recherche
+                            </legend>
+
                             <div class="filtre_recherche">
-                                <label for="filtre"> Filtres </label>
-                                <div class="filtre_list">
-                                    <div class="filtre_checkbox">
-                                        <input
-                                            type="checkbox"
-                                            name="economique"
-                                            id="economique"
-                                        /><label for="economique"
-                                            ><i
-                                                class="fa-solid fa-money-bill-wave"
-                                                style="color: #0065fc"
-                                            ></i
-                                            >Économique</label
-                                        >
-                                    </div>
-                                    <div class="filtre_checkbox">
-                                        <input
-                                            type="checkbox"
-                                            name="familial"
-                                            id="familial"
-                                        /><label for="familial"
-                                            ><i
-                                                class="fa-solid fa-person"
-                                                style="color: #0065fc"
-                                            ></i
-                                            >Familial</label
-                                        >
-                                    </div>
-                                    <div class="filtre_checkbox">
-                                        <input
-                                            type="checkbox"
-                                            name="romantique"
-                                            id="romantique"
-                                        /><label for="romantique"
-                                            ><i
-                                                class="fa-solid fa-heart"
-                                                style="color: #0065fc"
-                                            ></i
-                                            >Romantique</label
-                                        >
-                                    </div>
-                                    <div class="filtre_checkbox">
-                                        <input
-                                            type="checkbox"
-                                            name="pepites"
-                                            id="pepite"
-                                        /><label for="pepite"
-                                            ><i
-                                                class="fa-solid fa-fire"
-                                                style="color: #0065fc"
-                                            ></i
-                                            >Nos pépites</label
-                                        >
-                                    </div>
-                                </div>
+                                <p class="filtre_title">Filtres</p>
+
+                                <div class="filtre_list"></div>
+                                <input
+                                    type="checkbox"
+                                    name="economique"
+                                    id="economique"
+                                /><label for="economique"
+                                    ><i
+                                        class="fa-solid fa-money-bill-wave"
+                                        style="color: #0065fc"
+                                    ></i
+                                    >Économique</label
+                                >
+
+                                <input
+                                    type="checkbox"
+                                    name="familial"
+                                    id="familial"
+                                /><label for="familial"
+                                    ><i
+                                        class="fa-solid fa-person"
+                                        style="color: #0065fc"
+                                    ></i
+                                    >Familial</label
+                                >
+
+                                <input
+                                    type="checkbox"
+                                    name="romantique"
+                                    id="romantique"
+                                /><label for="romantique"
+                                    ><i
+                                        class="fa-solid fa-heart"
+                                        style="color: #0065fc"
+                                    ></i
+                                    >Romantique</label
+                                >
+                                <input
+                                    type="checkbox"
+                                    name="pepites"
+                                    id="pepite"
+                                /><label for="pepite"
+                                    ><i
+                                        class="fa-solid fa-fire"
+                                        style="color: #0065fc"
+                                    ></i
+                                    >Nos pépites</label
+                                >
                             </div>
                         </fieldset>
                     </form>
