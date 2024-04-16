@@ -248,4 +248,12 @@ footer a:hover {
         border-bottom: solid 2px var(--main-color);
         border-top: none;
     }
+
+    footer {
+        flex-direction: column;
+        /* full width & override 15px padding */
+        margin-right: -50px;
+        margin-left: -50px;
+        padding: 15px 35px;
+    }
 }
