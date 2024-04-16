@@ -101,7 +101,40 @@ a {
 fieldset {
     border: none;
     padding: 0;
-    margin: 0;
+    margin: 35px 0;
+}
+.barre_recherche {
+    /* border: solid 1px red; */
+    border-radius: 15px;
+    display: flex;
+    /* border: solid 1px purple; */
+}
+
+#icon_recherche {
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: var(--main-bg-color);
+    border-top: solid 1px var(--main-bg-color);
+    border-bottom: solid 1px var(--main-bg-color);
+    border-left: solid 1px var(--main-bg-color);
+}
+#recherche {
+    border-top: solid 1px var(--main-bg-color);
+    border-bottom: solid 1px var(--main-bg-color);
+    border-left: none;
+    border-right: none;
+    padding: 0 15px;
+    font-weight: 700;
+}
+#submit {
+    border: solid 1px var(--main-color);
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--main-color);
+    color: var(--filter-bg-color);
+    font-weight: 700;
 }
 
 /****** Hebergements And Populaires ***********/
