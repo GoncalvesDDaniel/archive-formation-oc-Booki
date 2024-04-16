@@ -359,6 +359,7 @@ footer a:hover {
     }
     .filtre_list label {
         min-width: calc(50dvw - 50px - 10px);
+        /* 50dvw = moitié de l'écran 50px padding container gauche droite et 20/2 px de gap  */
     }
     footer {
         flex-direction: column;
