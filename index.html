@@ -40,12 +40,39 @@
             </header>
             <main>
                 <section class="hero">
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <h1 class="section-title">
+                        Trouvez votre hébergement pour des vacances de rêve
+                    </h1>
                     <p>En plein centre-ville ou en pleine nature</p>
+                    <form action="get">
+                        <fieldset>
+                            <legend class="sr-only">Barre de recherche</legend>
+
+                            <div class="barre_recherche">
+                                <label for="recherche"
+                                    ><i
+                                        class="fa-solid fa-location-dot"
+                                        style="color: #000000"
+                                    ></i>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="recherche"
+                                    id="recherche"
+                                    placeholder="Entrer une ville"
+                                />
+                                <input type="submit" />
+                            </div>
+                        </fieldset>
+                        <div class="filtre_recherche">
+                            <label for="filtre"> Filtres </label>
+                            <input type="checkbox" />
+                        </div>
+                    </form>
                 </section>
                 <div class="hebergements-and-populaires">
                     <section class="hebergements" id="hebergements">
-                        <h2>Hébergements à Marseille</h2>
+                        <h2 class="section-title">Hébergements à Marseille</h2>
                     </section>
                     <section class="populaires">
                         <div class="populaires-title">
@@ -198,9 +225,9 @@
                         </div>
                     </section>
                 </div>
-                <div>
-                    <section class="activites" id="activites">
-                        <h2>Activités à Marseille</h2>
+                <div class="activites">
+                    <section id="activites">
+                        <h2 class="section-title">Activités à Marseille</h2>
                     </section>
                 </div>
             </main>
