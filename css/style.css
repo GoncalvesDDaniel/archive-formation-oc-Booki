@@ -141,6 +141,7 @@ fieldset {
 .filtre_recherche {
     display: flex;
     align-items: center;
+    /* margin: 35px 0px; */
     /* gap: 15px; */
 }
 .filtre_recherche label {
@@ -169,7 +170,22 @@ fieldset {
 .filtre_liste {
     display: flex;
 }
-
+.information {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 35px 0px;
+}
+.information_circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: solid 1px #d9d9d9;
+    text-align: center;
+}
+.information i {
+    font-size: 12px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
