@@ -373,6 +373,26 @@ footer a:hover {
     .barre_recherche {
         width: 100dvw;
     }
+    .hebergements-and-populaires {
+        gap: 35px;
+    }
+    .hebergements {
+        width: 100%;
+        order: 1;
+    }
+    .populaires {
+        /* border-radius: 0px; */
+        margin-top: 0;
+        border: solid 1px red;
+        width: 100%;
+    }
+    .populaires-cards {
+        flex-direction: column;
+    }
+    .populaires-cards a {
+        width: 100%;
+    }
+
     #recherche {
         outline-offset: -1px;
     }
