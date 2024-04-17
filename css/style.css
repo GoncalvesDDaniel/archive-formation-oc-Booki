@@ -164,13 +164,19 @@ fieldset {
     background-color: #deebff;
 }
 
-/* .filtre_list input:checked + label {
-    background-color: #deebff;
-} */
-
 .filtre_list input {
     display: none;
 }
+.filtre_list label:has(input:checked) {
+    border: solid 2px var(--main-color);
+    background-color: #deebff;
+}
+
+.filtre_list_item {
+    border: solid 1px red;
+    justify-content: center;
+}
+
 .filtre_recherche i {
     margin-right: 10px;
 }
