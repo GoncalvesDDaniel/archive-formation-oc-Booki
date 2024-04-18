@@ -97,7 +97,7 @@ a {
     color: var(--main-bg-color);
 }
 
-/****** Trouvez votre hébergement***********/
+/****** Hero et barre de recherche ***********/
 fieldset {
     border: none;
     padding: 0;
@@ -224,7 +224,44 @@ fieldset {
 .hebergements {
     width: 65%;
 }
+.hebergements-cards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    max-height: 200px;
+}
 
+.hebergements-cards img {
+    border: solid 1px red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.hebergements-cards .card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -382,6 +419,9 @@ footer a:hover {
     .hebergements {
         width: 100%;
         order: 1;
+    }
+    .hebergements-cards {
+        grid-template-columns: 1fr;
     }
     .populaires {
         margin-top: 0;
