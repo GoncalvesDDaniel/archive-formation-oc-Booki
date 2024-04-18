@@ -376,15 +376,17 @@ footer a:hover {
     .hebergements-and-populaires {
         gap: 35px;
     }
+    .hebergements-and-populaires section:nth-child(2) {
+        border-radius: 0px;
+    }
     .hebergements {
         width: 100%;
         order: 1;
     }
     .populaires {
-        /* border-radius: 0px; */
         margin-top: 0;
-        border: solid 1px red;
-        width: 100%;
+        margin-left: -50px;
+        width: 100dvw;
     }
     .populaires-cards {
         flex-direction: column;
