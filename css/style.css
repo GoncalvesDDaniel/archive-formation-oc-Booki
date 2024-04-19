@@ -237,7 +237,6 @@ fieldset {
 }
 
 .hebergements-cards img {
-    border: solid 1px red;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden;
@@ -308,7 +307,8 @@ fieldset {
 }
 /********* Activité *******/
 .activites section {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
+    border: solid 1px red;
     border-radius: 20px;
     padding: 30px;
     margin-top: 50px;
