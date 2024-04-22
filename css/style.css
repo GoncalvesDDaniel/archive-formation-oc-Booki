@@ -97,6 +97,12 @@ a {
     color: var(--main-bg-color);
 }
 
+/****** Hero : H1 - Form (Barre de recherche et filtre) ***********/
+
+/****** H1 *******/
+.hero .section-title {
+    margin-top: 30px;
+}
 /****** barre de recherche ***********/
 fieldset {
     border: none;
@@ -422,7 +428,7 @@ footer a:hover {
 
     .header_nav {
         width: 100vw;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .header_nav_list {
         gap: 0px;
@@ -442,7 +448,9 @@ footer a:hover {
         border-bottom: solid 2px var(--main-color);
         border-top: none;
     }
-
+    .hero .section-title {
+        margin-top: 0px;
+    }
     #recherche {
         outline-offset: -1px;
     }
