@@ -220,7 +220,21 @@ fieldset {
     padding: 30px;
     box-sizing: border-box;
 }
-
+.card-content {
+    padding: 9px 15px 4px 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 8px;
+}
+.card-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card-subtitle {
+    font-size: 14px;
+}
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
@@ -245,25 +259,18 @@ fieldset {
     overflow: hidden;
 }
 
-.hebergements-cards .card-content {
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.hebergements-cards .card-title {
+/* .hebergements-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
-}
+} */
 
-.hebergements-cards .card-subtitle {
+/* .hebergements-cards .card-subtitle {
     margin: 0;
 }
 
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
-}
+} */
 
 .hebergements-more {
     flex-grow: 1;
