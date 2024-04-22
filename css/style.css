@@ -250,7 +250,7 @@ fieldset {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    max-height: 200px;
+    max-height: 207px;
 }
 
 .hebergements-cards img {
@@ -299,7 +299,7 @@ fieldset {
 
 .populaires-cards img {
     width: 33%;
-    height: 146px;
+    height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -332,7 +332,7 @@ fieldset {
 }
 .activites-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 30px;
     margin-top: 33px;
 }
@@ -340,7 +340,6 @@ fieldset {
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 0;
     height: 100%;
 }
@@ -352,9 +351,8 @@ fieldset {
 
 .activites-cards .card-content {
     padding: 20px;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
+    /* flex-grow: 1; */
+    /* align-items: center; */
 }
 /********* Footer *******/
 footer {
@@ -429,7 +427,7 @@ footer a:hover {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .main-container {
-        padding: 20px;
+        padding: 0px 20px;
     }
     header {
         flex-direction: column;
@@ -488,6 +486,7 @@ footer a:hover {
     .filtre_list {
         justify-content: space-between;
     }
+
     .filtre_list label {
         min-width: calc(50dvw - 20px - 10px);
         /* 50dvw = moitié de l'écran 50px padding container gauche droite et 20/2 px de gap  */
@@ -518,13 +517,10 @@ footer a:hover {
         margin: 15px 0;
         grid-template-columns: 1fr;
     }
-    .activites-cards {
-        grid-template-columns: 1fr;
-    }
     .populaires {
         margin-top: 0;
         margin-left: -20px;
-        width: 100lvw;
+        width: 100svw;
         padding: 30px 20px;
     }
     .populaires-cards {
@@ -533,20 +529,23 @@ footer a:hover {
     .populaires-cards a {
         width: 100%;
     }
-
-    .filtre_list {
-        justify-content: space-between;
+    .activites {
+        padding: 10px;
     }
-    .filtre_list label {
-        min-width: calc(50dvw - 20px - 10px);
-        /* 50dvw = moitié de l'écran 40/2 px padding container gauche droite et 20/2 px de gap  */
+    .activites-cards {
+        grid-template-columns: 1fr;
     }
 
     footer {
         flex-direction: column;
-        /* full width & override 15px padding */
-        margin-right: -50px;
-        margin-left: -50px;
-        padding: 15px 35px;
+        /* margin-top: 35px;
+        margin-right: -20px;
+        margin-left: -20px; */
+        /* margin: 35px -20px 0px -20px; */
+        margin-top: 35px;
+        margin-left: -20px;
+        margin-bottom: 0px;
+        width: 100svw;
+        padding: 30px;
     }
 }
