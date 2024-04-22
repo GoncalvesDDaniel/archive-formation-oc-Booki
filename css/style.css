@@ -358,7 +358,7 @@ fieldset {
 footer {
     display: flex;
     background-color: var(--main-bg-color);
-    margin: 50px 0 15px 0;
+    margin-top: 35px;
 }
 
 footer a:hover {
@@ -538,13 +538,7 @@ footer a:hover {
 
     footer {
         flex-direction: column;
-        /* margin-top: 35px;
-        margin-right: -20px;
-        margin-left: -20px; */
-        /* margin: 35px -20px 0px -20px; */
-        margin-top: 35px;
         margin-left: -20px;
-        margin-bottom: 0px;
         width: 100svw;
         padding: 30px;
     }
