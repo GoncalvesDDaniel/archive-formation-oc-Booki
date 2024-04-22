@@ -320,7 +320,7 @@ fieldset {
 }
 /********* Activité *******/
 .activites {
-    margin-top: 50px;
+    margin-top: 35px;
     padding: 30px;
 }
 .activites-cards {
@@ -334,6 +334,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0;
     height: 100%;
 }
 .activites-cards img {
@@ -341,13 +342,9 @@ fieldset {
     border-top-right-radius: 20px;
     height: 380px;
 }
-.activites-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 .activites-cards .card-content {
-    padding-left: 15px;
+    padding: 20px;
     flex-grow: 1;
     display: flex;
     align-items: center;
