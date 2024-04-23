@@ -115,7 +115,6 @@ fieldset {
     border-radius: 15px;
     width: max-content;
     overflow: hidden;
-    /* max-width: calc(100svw - 100px); */
 }
 .icon_location {
     display: flex;
@@ -462,9 +461,12 @@ footer a:hover {
     }
     #recherche {
         outline-offset: -1px;
+        min-width: calc(100svw - 48px - 40px);
     }
     #submit {
         display: none;
+        /* width: calc(100svw - 48px - 40px); */
+        /* 100 small vw - 48px (location_icon) - 40px (margin left et right) */
     }
 
     .fa-magnifying-glass {
@@ -472,7 +474,6 @@ footer a:hover {
     }
     .barre_recherche {
         position: relative;
-        min-width: calc(100svw - 40px);
     }
     .barre_recherche label {
         display: flex;
@@ -490,7 +491,8 @@ footer a:hover {
     }
 
     .filtre_list label {
-        min-width: calc(50dvw - 20px - 10px);
+        /* width: fit-content; */
+        width: calc(50dvw - 20px - 10px);
         /* 50dvw = moitié de l'écran 50px padding container gauche droite et 20/2 px de gap  */
     }
     .hebergements-and-populaires {
