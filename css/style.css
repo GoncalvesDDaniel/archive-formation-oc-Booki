@@ -115,7 +115,7 @@ fieldset {
     border-radius: 15px;
     width: max-content;
     overflow: hidden;
-    max-width: calc(100dvw - 100px);
+    /* max-width: calc(100svw - 100px); */
 }
 .icon_location {
     display: flex;
@@ -204,6 +204,7 @@ fieldset {
     border-radius: 50%;
     border: solid 1px #d9d9d9;
     text-align: center;
+    aspect-ratio: 1 / 1;
 }
 .information i {
     font-size: 12px;
@@ -471,6 +472,7 @@ footer a:hover {
     }
     .barre_recherche {
         position: relative;
+        min-width: calc(100svw - 40px);
     }
     .barre_recherche label {
         display: flex;
