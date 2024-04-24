@@ -553,4 +553,9 @@ footer a:active {
         padding: 30px;
         gap: 50px;
     }
+    @media (max-width: 408px) {
+        .filtre_list label {
+            width: 100%;
+        }
+    }
 }
