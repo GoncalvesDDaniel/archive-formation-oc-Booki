@@ -45,32 +45,32 @@ fieldset {
     padding: 0 50px;
 }
 
-.header_main {
+.header-main {
     display: flex;
     justify-content: space-between;
 }
 
-.header_logo {
+.header-logo {
     width: 60px;
     margin: 30px 0;
 }
 
-.header_nav {
+.header-nav {
     margin-bottom: 30px;
 }
 
-.header_nav_list {
+.header-nav-list {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 68px;
 }
 
-.header_nav_item {
+.header-nav-item {
     padding-top: 20px;
 }
 
-.header_nav_item:hover {
+.header-nav-item:hover {
     padding-top: 18px;
     border-top: solid 3px var(--main-color);
     color: var(--main-color);
@@ -99,14 +99,14 @@ fieldset {
     margin-top: 30px;
 }
 
-.barre_recherche {
+.barre-recherche {
     display: flex;
     border-radius: 15px;
     width: max-content;
     overflow: hidden;
 }
 
-.icon_location {
+.icon-location {
     display: flex;
     align-items: center;
     background-color: var(--main-bg-color);
@@ -138,24 +138,24 @@ fieldset {
     display: none;
 }
 
-.filtre_recherche {
+.filtre-research {
     display: flex;
     align-items: center;
 }
 
-.filtre_title {
+.filtre-title {
     font-size: 18px;
     font-weight: 700;
     margin-right: 15px;
 }
 
-.filtre_list {
+.filtre-list {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-.filtre_list label {
+.filtre-list label {
     padding: 15px 20px;
     border-radius: 25px;
     border: solid 2px #d9d9d9;
@@ -164,23 +164,23 @@ fieldset {
     cursor: pointer;
 }
 
-.filtre_list label:active {
+.filtre-list label:active {
     background-color: #deebff;
 }
 
-.filtre_list label:hover {
+.filtre-list label:hover {
     background-color: #deebff;
 }
 
-.filtre_list label:has(input:checked) {
+.filtre-list label:has(input:checked) {
     background-color: #deebff;
 }
 
-.filtre_list input {
+.filtre-list input {
     display: none;
 }
 
-.filtre_list i {
+.filtre-list i {
     margin-right: 10px;
 }
 
@@ -191,7 +191,7 @@ fieldset {
     margin: 35px 0px;
 }
 
-.information_circle {
+.information-circle {
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -227,7 +227,7 @@ fieldset {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 .card:hover {
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
 }
 .card img {
     object-fit: cover;
@@ -357,14 +357,14 @@ footer a:active {
     color: var(--main-color);
 }
 
-.footer_div {
+.footer-div-list {
     display: flex;
     flex-direction: column;
     width: 33%;
     gap: 15px;
 }
 
-.h2_footer {
+.h2-footer {
     font-size: 18px;
     font-weight: 700;
 }
@@ -373,7 +373,7 @@ footer a:active {
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
-    .filtre_recherche {
+    .filtre-research {
         flex-direction: column;
         align-items: start;
         gap: 20px;
@@ -424,24 +424,24 @@ footer a:active {
         align-items: center;
     }
 
-    .header_nav {
+    .header-nav {
         width: 100dvw;
         margin-bottom: 30px;
     }
 
-    .header_nav_list {
+    .header-nav-list {
         gap: 0px;
         text-align: center;
         /* justify-content: space-around; */
         padding-top: 0px;
     }
-    .header_nav_item {
+    .header-nav-item {
         width: 50%;
         padding-top: 0px;
         padding-bottom: 13px;
     }
 
-    .header_nav_item:hover {
+    .header-nav-item:hover {
         color: var(--main-color);
         padding-top: 0px;
         border-bottom: solid 2px var(--main-color);
@@ -467,12 +467,12 @@ footer a:active {
         display: contents;
     }
 
-    .barre_recherche {
+    .barre-recherche {
         width: 100%;
         position: relative;
     }
 
-    .barre_recherche label {
+    .barre-recherche label {
         display: flex;
         align-items: center;
         padding: 14px;
@@ -483,12 +483,12 @@ footer a:active {
         right: 0;
     }
 
-    .filtre_list {
+    .filtre-list {
         flex-grow: 1;
         justify-content: space-between;
     }
 
-    .filtre_list label {
+    .filtre-list label {
         min-width: calc(50dvw - 20px - 10px);
         /* 50 dynamic vw (2 colonnes) - 20px (margin left ou right)  - 10px (gap) */
     }
@@ -555,7 +555,7 @@ footer a:active {
         gap: 50px;
     }
     @media (max-width: 408px) {
-        .filtre_list label {
+        .filtre-list label {
             width: 100%;
         }
     }
