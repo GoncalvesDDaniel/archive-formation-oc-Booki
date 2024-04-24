@@ -551,5 +551,6 @@ footer a:active {
         margin-left: -20px;
         width: 100svw;
         padding: 30px;
+        gap: 50px;
     }
 }
