@@ -164,10 +164,6 @@ fieldset {
     cursor: pointer;
 }
 
-.filtre-list label:active {
-    background-color: #deebff;
-}
-
 .filtre-list label:hover {
     background-color: #deebff;
 }
@@ -303,7 +299,7 @@ fieldset {
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 146px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -380,6 +376,10 @@ footer a:active {
         gap: 20px;
     }
 
+    .filtre-list label:active {
+        background-color: #deebff;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -407,7 +407,9 @@ footer a:active {
     .populaires-cards a {
         width: calc(33% - 10px);
     }
-
+    .populaires-cards img {
+        height: 156px;
+    }
     .activites-cards img {
         height: 200px;
     }
