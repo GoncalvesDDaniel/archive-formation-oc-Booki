@@ -265,7 +265,6 @@ fieldset {
 }
 .hebergements-cards .card {
     height: 207px;
-    /* justify-content: space-between; */
 }
 
 .hebergements-cards img {
@@ -555,6 +554,9 @@ footer a:active {
         width: 100svw;
         padding: 30px;
         gap: 50px;
+    }
+    .footer-div-list {
+        width: initial;
     }
     @media (max-width: 408px) {
         .filtre-list label {
